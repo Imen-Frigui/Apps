@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IM3BG2</string>
+    <string name="accueil">Ceci est le texte d\'accueil</string>
+    <string name="taille">Taille :</string>
+    <string name="poids">Poids :</string>
+    <string name="cacluler">CALCULER</string>
+    <string name="annuler">RETABLIR</string>
+    <string name="resultat">Résultat</string>
+</resources>

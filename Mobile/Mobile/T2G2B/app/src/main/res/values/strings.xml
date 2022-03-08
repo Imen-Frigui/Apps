@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">T2G2B</string>
+    <string name="prenom">Saisir votre prénom</string>
+    <string name="nom">Saisir votre nom</string>
+    <string name="email">Saisir votre email</string>
+    <string name="etudiant">Etudiant</string>
+    <string name="enseignant">Enseignant</string>
+    <string name="tel">Saisir votre numéro de téléphone</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNom"
+        android:hint="@string/nom"
+        android:layout_below="@+id/etPrenom"
+        >
+
+    </EditText>
+
+    <EditText  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMail"
+        android:hint="@string/email"
+        android:layout_below="@+id/etNom"
+        />
+
+    <RadioGroup
+        android:id="@+id/ll"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMail">
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prenom">
+
+        </EditText>
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbEtudiant"
+
+        android:text="@string/etudiant"
+        ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbEnseignat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enseignant"
+
+            />
+    </RadioGroup>
+
+    <EditText  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTel"
+        android:hint="@string/tel"
+        android:layout_below="@+id/ll"
+        />
+
+</RelativeLayout>

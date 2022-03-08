@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.my_application.Main">
+
+    <TextView
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:bufferType="spannable"
+        android:capitalize="words"
+        android:text="Prenom" />
+
+    <EditText
+        android:id="@+id/edPren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/prenom"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="Nom" />
+
+    <EditText
+        android:id="@+id/edNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/nom"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="EMAIL" />
+
+    <EditText
+        android:id="@+id/edMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="numéro" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tel"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnanuuler"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E91E63"
+            android:onClick="annuler"
+            android:text="@string/annuler" />
+
+        <Button
+            android:id="@+id/btnajout"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#4CAF50"
+            android:hapticFeedbackEnabled="false"
+            android:onClick="ajouter"
+            android:text="@string/ajouter" />
+
+    </LinearLayout>
+
+</LinearLayout>

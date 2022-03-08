@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="HOME">Calculate your IMC</string>
+    <string name="Height">Height :</string>
+    <string name="weight">weight :</string>
+    <string name="cacluler">Calculer</string>
+    <string name="restart">restart</string>
+    <string name="Result">Result : </string>
+</resources>

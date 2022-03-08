@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/taille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TVtail"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Tailles :"
+            android:textColor="#FF9800" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvpoids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taille"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Tv2poids"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Poids:"
+            android:textColor="#FF9800" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpoids"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+
+            android:onClick="calculateBMI"
+            android:shadowColor="#14C34848"
+            android:text="calculer"
+            app:strokeColor="#B32020" />
+
+        <Button
+            android:id="@+id/act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="40dp"
+            android:background="#000000"
+            android:onClick="Retablir"
+            android:shadowColor="#14C34848"
+            android:text="Actualiser"
+            android:textColorHighlight="#572616"
+            android:textColorLink="#2196F3"
+            app:strokeColor="#B32020" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttons"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TVimc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:layout_marginEnd="25dp"
+            android:text="IMC : "
+            android:textColor="#FF9800" />
+
+        <TextView
+            android:id="@+id/TVimc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res"
+        android:orientation="horizontal"></LinearLayout>
+
+</RelativeLayout>

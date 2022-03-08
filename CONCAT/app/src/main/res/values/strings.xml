@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CONCATINATION</string>
+    <string name="ch1">"Saisir chaine 1 : "</string>
+    <string name="ch2">"Saisir chaine 2 : "</string>
+    <string name="ch3">Separeration par un espace [coucher Si OUI]</string>
+    <string name="chbtn">Concatinatination</string>
+</resources>
